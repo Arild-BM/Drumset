@@ -1,0 +1,16 @@
+button {
+    margin: 0.25rem;
+    border: 1px solid orange;
+    border-radius: 4px;
+    background-color: #444;
+    color: #ee8;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    outline: 2px solid #000;
+    transition: all 0.25s;
+  }
+  button:hover {
+    border-color: #840;
+    color: #fff;
+    transform: scale(1.07);
+  }

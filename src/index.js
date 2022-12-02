@@ -1,17 +1,3 @@
-/* 
-document.body gives us:
-
-<BODY>
-<DIV id="app">Hello</DIV>
-<SCRIPT src="src/index.js"></SCRIPT>
-</BODY>
-*/
-
-//console.log(document.querySelector("#app").textContent) //     <DIV id="app">Hello</DIV>
-
-const qmyAudioElement = new Audio("../sounds/clap.wav");
-qmyAudioElement.play();
-
 const appElement = document.getElementById("app")
 // list of sound files:
 const sounds = ["clap.wav", "hihat.wav", "kick.wav", "openhat.wav", "ride.wav", "snare.wav", "tink.wav", "tom.wav"]
